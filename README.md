@@ -11,6 +11,57 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Qualcommes_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Qualcommes_python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Qualcommes_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Qualcommes_python-project-49)
 
+## Installation and launch 
+
+### Via pip
+
+#### 1. Clone the repository and navigate to the project folder
+
+```bash
+git clone <url of repository>
+cd hexlet-code
+```
+
+#### 2. (Recommended) Create and activate a virtual environment
+
+```bash
+python -m venv venv
+source venv/bin/activate      # Linux/macOS
+venv\Scripts\activate         # Windows
+```
+
+#### 3. Install the package
+
+```bash
+pip install .
+```
+
+#### 4. Launch any game, for example
+
+```bash
+brain-even
+```
+
+### Via UV (recommended)
+
+#### 1. Install uv if it is not already installed
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+#### 2. In the root of the project, run the installation
+
+```bash
+uv pip install .
+```
+
+#### 3. Launch any game, for example
+
+```bash
+brain-progression
+```
+
 ### Example of installing a package, launching the brain-even game, victory and defeat 
 
 [![asciicast](https://asciinema.org/a/p7GBK0pqlZjLvc9X.svg)](https://asciinema.org/a/p7GBK0pqlZjLvc9X)
@@ -30,3 +81,5 @@
 ### Example of launching the brain-prime game, victory and defeat
 
 [![asciicast](https://asciinema.org/a/H3oGBTFMoe9UcGgm.svg)](https://asciinema.org/a/H3oGBTFMoe9UcGgm)
+
+
