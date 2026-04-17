@@ -13,20 +13,20 @@
 
 ### Example of installing a package, launching the brain-even game, victory and defeat 
 
-https://asciinema.org/a/p7GBK0pqlZjLvc9X
+[![asciicast](https://asciinema.org/a/p7GBK0pqlZjLvc9X.svg)](https://asciinema.org/a/p7GBK0pqlZjLvc9X)
 
 ### Example of launching the brain-calc game, victory and defeat
 
-https://asciinema.org/a/iWYlNaj2yBY4FZuW
+[![asciicast](https://asciinema.org/a/iWYlNaj2yBY4FZuW.svg)](https://asciinema.org/a/iWYlNaj2yBY4FZuW)
 
 ### Example of launching the brain-gcd game, victory and defeat
 
-https://asciinema.org/a/QaBrLiHLm3mAOpkZ
+[![asciicast](https://asciinema.org/a/QaBrLiHLm3mAOpkZ.svg)](https://asciinema.org/a/QaBrLiHLm3mAOpkZ)
 
 ### Example of launching the brain-progression game, victory and defeat
 
-https://asciinema.org/a/rSTsZe3JZPh6cs11
+[![asciicast](https://asciinema.org/a/rSTsZe3JZPh6cs11.svg)](https://asciinema.org/a/rSTsZe3JZPh6cs11)
 
 ### Example of launching the brain-prime game, victory and defeat
 
-https://asciinema.org/a/H3oGBTFMoe9UcGgm
+[![asciicast](https://asciinema.org/a/H3oGBTFMoe9UcGgm.svg)](https://asciinema.org/a/H3oGBTFMoe9UcGgm)
