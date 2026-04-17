@@ -11,6 +11,20 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Qualcommes_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Qualcommes_python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Qualcommes_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Qualcommes_python-project-49)
 
+# About project
+
+##### Brain Games is a console application project that offers 5 math games:
+
+###### 1. "Evenness Check" game. You have to correctly answer the question: "Is a number even?"
+
+###### 2. "Calculator" game. You have to calculate a problem with two numbers.
+
+###### 3. "GCD" game. You have to find the greatest common divisor of two numbers.
+
+###### 4. "Arithmetic Progression" game. You have to find the missing number in the progression.
+
+###### 5. "Is a Number Prime?" game. You have to correctly answer the question: "Is a Number Prime?"
+
 ## Installation and launch 
 
 ### Via pip
