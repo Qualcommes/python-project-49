@@ -1,8 +1,10 @@
 [project]
+authors = [
+    {name = "Vladislav", email = "qualcommes100@gmail.com"},
+]
 name = "hexlet-code"
 version = "0.1.0"
 description = "Console application with math games"
-authors = [{ name = "Vladislav", email = "qualcommes100@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
