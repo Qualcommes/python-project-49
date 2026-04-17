@@ -25,7 +25,7 @@ def get_expression() -> list:
 def brain_calc_game() -> list:
     stack = []
     stack.append('What is the result of the expression?')
-    for i in range(1, 4):
+    for _ in range(1, 4):
         expression = get_expression()
         stack.append([expression[0], expression[1]])
     return stack

@@ -12,7 +12,7 @@ def get_gcd(a: int, b: int) -> int:
 def brain_gcd_game() -> list:
     stack = []
     stack.append('Find the greatest common divisor of given numbers.')
-    for i in range(1, 4):
+    for _ in range(1, 4):
         number = random.randint(1, 100)
         number2 = random.randint(1, 100)
         gcd = get_gcd(number, number2)
