@@ -13,19 +13,41 @@
 
 # About project
 
-##### Brain Games is a console application project that offers 5 math games:
+#### Brain Games is a console application project that offers 5 math games:
 
-###### 1. "Evenness Check" game. You have to correctly answer the question: "Is a number even?"
+##### 1. "Evenness Check" game. You have to correctly answer the question: "Is a number even?"
 
-###### 2. "Calculator" game. You have to calculate a problem with two numbers.
+##### 2. "Calculator" game. You have to calculate a problem with two numbers.
 
-###### 3. "GCD" game. You have to find the greatest common divisor of two numbers.
+##### 3. "GCD" game. You have to find the greatest common divisor of two numbers.
 
-###### 4. "Arithmetic Progression" game. You have to find the missing number in the progression.
+##### 4. "Arithmetic Progression" game. You have to find the missing number in the progression.
 
-###### 5. "Is a Number Prime?" game. You have to correctly answer the question: "Is a Number Prime?"
+##### 5. "Is a Number Prime?" game. You have to correctly answer the question: "Is a Number Prime?"
 
-## Installation and launch 
+##### Each game asks three questions. If you answer correctly, move on to the next one; if you answer incorrectly, the game ends.
+
+## 2. Minimum requirements
+
+### Environment
+
+#### Python version 3.12 or higher
+#### prompt version 0.4.1 or higher
+#### [for development] ruff version 0.14.1 or higher
+
+## 3. Usage (available commands)
+
+### brain-even — игра «Чётное или нечётное».
+
+### brain-calc — игра «Калькулятор» (арифметические выражения).
+
+### brain-gcd — игра «Наибольший общий делитель».
+
+### brain-progression — игра «Арифметическая прогрессия».
+
+### brain-prime — игра «Простое число».
+
+## 4. Installation and launch 
 
 ### Via pip
 
@@ -89,6 +111,28 @@ uv pip install .
 brain-progression
 ```
 
+## 5. Installing for development
+
+```bash
+# pip
+pip install -e .[dev]
+
+# uv
+uv pip install -e .[dev]
+```
+
+## 6. Removing
+
+```bash
+# pip
+pip uninstall hexlet-code
+
+# uv
+uv pip uninstall hexlet-code
+```
+
+## 7. Examples of use
+
 ### Example of installing a package, launching the brain-even game, victory and defeat 
 
 [![asciicast](https://asciinema.org/a/QpZupNHjM2nqdpBY.svg)](https://asciinema.org/a/QpZupNHjM2nqdpBY)
@@ -108,5 +152,3 @@ brain-progression
 ### Example of launching the brain-prime game, victory and defeat
 
 [![asciicast](https://asciinema.org/a/H3oGBTFMoe9UcGgm.svg)](https://asciinema.org/a/H3oGBTFMoe9UcGgm)
-
-
