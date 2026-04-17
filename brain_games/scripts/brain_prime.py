@@ -1,5 +1,5 @@
 from brain_games.game_engine import game
-from brain_games.prime_cli import brain_prime_game
+from brain_games.games.prime_cli import brain_prime_game
 
 
 def main():
