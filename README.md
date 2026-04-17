@@ -44,19 +44,26 @@ brain-even
 
 ### Via UV (recommended)
 
-#### 1. Install uv if it is not already installed
+#### 1. Clone the repository and navigate to the project folder
 
 ```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
+git clone <url of repository>
+cd hexlet-code
 ```
 
-#### 2. In the root of the project, run the installation
+#### 2. Install uv if it is not already installed
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh  # Windows/Linux/macOS/WSL
+```
+
+#### 3. In the root of the project, run the installation
 
 ```bash
 uv pip install .
 ```
 
-#### 3. Launch any game, for example
+#### 4. Launch any game, for example
 
 ```bash
 brain-progression
