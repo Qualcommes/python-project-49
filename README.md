@@ -37,15 +37,15 @@
 
 ## 3. Usage (available commands)
 
-### brain-even — игра «Чётное или нечётное».
+### brain-even — "Evenness Check" game.
 
-### brain-calc — игра «Калькулятор» (арифметические выражения).
+### brain-calc — "Calculator" game.
 
-### brain-gcd — игра «Наибольший общий делитель».
+### brain-gcd — "GCD" game.
 
-### brain-progression — игра «Арифметическая прогрессия».
+### brain-progression — "Arithmetic Progression" game.
 
-### brain-prime — игра «Простое число».
+### brain-prime — "Is a Number Prime?" game.
 
 ## 4. Installation and launch 
 
