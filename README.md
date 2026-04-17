@@ -57,13 +57,19 @@ cd hexlet-code
 curl -LsSf https://astral.sh/uv/install.sh | sh  # Windows/Linux/macOS/WSL
 ```
 
-#### 3. In the root of the project, run the installation
+#### 3. Create a virtual environment
+
+```bash
+uv venv
+```
+
+#### 4. In the root of the project, run the installation
 
 ```bash
 uv pip install .
 ```
 
-#### 4. Launch any game, for example
+#### 5. Launch any game, for example
 
 ```bash
 brain-progression
@@ -71,7 +77,7 @@ brain-progression
 
 ### Example of installing a package, launching the brain-even game, victory and defeat 
 
-[![asciicast](https://asciinema.org/a/p7GBK0pqlZjLvc9X.svg)](https://asciinema.org/a/p7GBK0pqlZjLvc9X)
+[![asciicast](https://asciinema.org/a/QpZupNHjM2nqdpBY.svg)](https://asciinema.org/a/QpZupNHjM2nqdpBY)
 
 ### Example of launching the brain-calc game, victory and defeat
 
