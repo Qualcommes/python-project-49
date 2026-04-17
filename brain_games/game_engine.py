@@ -11,18 +11,18 @@ def welcome_user() -> str:
     return name
 
 
-def game(stack: list):
+def game(game_information: list):
     name = welcome_user()
-    print(stack[0])
+    print(game_information[0])
     for i in range(1, 4):
         answer = prompt.string('Question: ' + 
-                               str(stack[i][0]) + '\nYour answer: ')
-        if answer == str(stack[i][1]):
+                               str(game_information[i][0]) + '\nYour answer: ')
+        if answer == str(game_information[i][1]):
             print('Correct!')
         else:
             print("'" + answer + "' is wrong answer ;(."
                     "Correct answer was '" + 
-                    str(stack[i][1]) + "'.")
+                    str(game_information[i][1]) + "'.")
             print("Let's try again, " + name + "!")
             return
     print('Congratulations, ' + name + '!')

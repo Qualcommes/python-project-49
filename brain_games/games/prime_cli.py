@@ -13,11 +13,11 @@ def is_prime(number: int) -> str:
 
 
 def brain_prime_game() -> list:
-    stack = []
-    stack.append('Answer "yes" if given number '
+    games_information = []
+    games_information.append('Answer "yes" if given number '
     'is prime. Otherwise answer "no".')
     for _ in range(1, 4):
-        number = random.randint(1, 110)
-        result = is_prime(number)
-        stack.append([number, result])
-    return stack
+        question = random.randint(1, 110)
+        answer = is_prime(question)
+        games_information.append([question, answer])
+    return games_information

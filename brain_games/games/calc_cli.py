@@ -2,7 +2,7 @@ import random
 
 
 def get_expression() -> list:
-    stack = []
+    levels_information = []
     expression = ''
     result = 0
     number = random.randint(1, 30)
@@ -18,15 +18,15 @@ def get_expression() -> list:
         case 3: 
             expression = str(number // 2) + ' * ' + str(number2 // 2)
             result += (number // 2) * (number2 // 2)
-    stack += [expression, result]
-    return stack
+    levels_information += [expression, result]
+    return levels_information
 
 
 def brain_calc_game() -> list:
-    stack = []
-    stack.append('What is the result of the expression?')
+    games_information = []
+    games_information.append('What is the result of the expression?')
     for _ in range(1, 4):
-        expression = get_expression()
-        stack.append([expression[0], expression[1]])
-    return stack
+        question, answer = get_expression()
+        games_information.append([question, answer])
+    return games_information
 
