@@ -10,4 +10,23 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Qualcommes_python-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=Qualcommes_python-project-49)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Qualcommes_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Qualcommes_python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Qualcommes_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Qualcommes_python-project-49)
-[![asciicast](https://asciinema.org/a/47SG2LbFt5NypNkAXc26tdwYT.svg)](https://asciinema.org/a/47SG2LbFt5NypNkAXc26tdwYT)
+
+### Example of installing a package, launching the brain-even game, victory and defeat 
+
+https://asciinema.org/a/p7GBK0pqlZjLvc9X
+
+### Example of launching the brain-calc game, victory and defeat
+
+https://asciinema.org/a/iWYlNaj2yBY4FZuW
+
+### Example of launching the brain-gcd game, victory and defeat
+
+https://asciinema.org/a/QaBrLiHLm3mAOpkZ
+
+### Example of launching the brain-progression game, victory and defeat
+
+https://asciinema.org/a/rSTsZe3JZPh6cs11
+
+### Example of launching the brain-prime game, victory and defeat
+
+https://asciinema.org/a/H3oGBTFMoe9UcGgm
