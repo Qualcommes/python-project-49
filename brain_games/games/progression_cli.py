@@ -20,7 +20,7 @@ def get_progression(first: int, step: int, n: int) -> list:
 
 def brain_progression_game() -> list:
     stack = []
-    stack.append('Whut number is missing in the progression?')
+    stack.append('What number is missing in the progression?')
 
     for _ in range(1, 4):
         first = random.randint(1, 20)
